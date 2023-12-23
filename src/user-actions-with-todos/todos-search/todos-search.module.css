@@ -1,0 +1,14 @@
+.searchContainer {
+	display: flex;
+	justify-content: flex-end;
+	height: 26px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #394443;
+}
+
+div {
+	margin: 1 5px;
+	margin-right: 1.5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #394443;
+}

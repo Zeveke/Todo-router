@@ -1,0 +1,28 @@
+.taskContainer {
+	width: 600px;
+	margin: 150px auto;
+	padding: 4px;
+	border: 1px solid #394443;
+	background-color: #8dabaa;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #394443;
+}
+
+.getBackButton {
+	font-size: 20px;
+	margin-left: 5px;
+	padding: 0 5px;
+}
+
+.todoItem {
+	display: flex;
+	justify-content: space-between;
+	padding: 2px 5px;
+	margin: 1px;
+	background-color: #d6ecf0;
+	text-align: center;
+}
+
+.todoItem:hover {
+	background-color: #aecfcf;
+}

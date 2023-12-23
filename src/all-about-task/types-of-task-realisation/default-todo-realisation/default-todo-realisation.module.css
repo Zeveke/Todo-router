@@ -1,0 +1,44 @@
+.taskManager {
+	width: 600px;
+	margin: 150px auto;
+	padding: 4px;
+	border: 1px solid #394443;
+	background-color: #8dabaa;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.goBackButton {
+	font-size: 20px;
+	margin-left: 5px;
+	padding: 0 5px;
+}
+
+.taskPlot {
+	width: 580px;
+	padding: 2px 6px;
+	margin: 1px auto;
+	background-color: #d6edf0;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 1px solid #394443;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #394443;
+}
+
+.buttonsBlock {
+	width: 150px;
+	margin: 1px auto;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #394443;
+}
+
+.todoText {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

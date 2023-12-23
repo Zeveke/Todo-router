@@ -1,0 +1,29 @@
+.container {
+	width: 600px;
+	margin: 150px auto;
+	padding: 4px;
+	border: 1px solid #394443;
+	background-color: #8dabaa;
+}
+
+.header {
+	font-size: 25px;
+	font-family: 'Franklin Gothic Medium' cursive;
+	margin: 5px;
+	text-align: center justify;
+	color: rgb(237, 243, 243);
+}
+
+.settings {
+	display: flex;
+	justify-content: space-between;
+}
+
+:global Link {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(20, 19, 19);
+}
