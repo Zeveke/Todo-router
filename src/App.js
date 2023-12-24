@@ -70,7 +70,7 @@ export const App = () => {
 				{toDos.map((toDo) => (
 					<Route
 						key={toDo.id}
-						path={`/task/${toDo.id}`}
+						path={`/task/:id`}
 						element={
 							<AllAboutTask task={toDo} tasks={toDos} setTasks={setToDos} />
 						}
