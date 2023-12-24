@@ -16,14 +16,14 @@
 }
 
 .taskPlot {
-	width: 580px;
+	width: 700px;
 	padding: 2px 6px;
 	margin: 1px auto;
 	background-color: #d6edf0;
 	text-align: center;
-	white-space: nowrap;
+	/* white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	text-overflow: ellipsis; */
 	border: 1px solid #394443;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px #394443;
@@ -38,7 +38,5 @@
 }
 
 .todoText {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	display: flex;
 }
