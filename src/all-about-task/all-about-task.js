@@ -8,7 +8,7 @@ export const AllAboutTask = ({ task, tasks, setTasks }) => {
 	const [actualToDoValue, setActualToDoValue] = useState(task.value);
 	const [IsToDoInModificationProcess, setIsToDoInModificationProcess] = useState(false);
 
-	const navigate = useNavigate();
+	const navigate = useNavigate(task.id);
 
 	return !IsToDoInModificationProcess ? (
 		<DefaultTaskRealisation
@@ -31,7 +31,3 @@ export const AllAboutTask = ({ task, tasks, setTasks }) => {
 		/>
 	);
 };
-
-/*
-
-*/
