@@ -4,9 +4,10 @@
 	padding: 4px;
 	border: 1px solid #394443;
 	background-color: #8dabaa;
-	white-space: nowrap;
+	/* white-space: nowrap; */
 	overflow: hidden;
-	text-overflow: ellipsis;
+	/* text-overflow: ellipsis; */
+	word-break: break-all;
 }
 
 .goBackButton {
@@ -16,21 +17,25 @@
 }
 
 .taskPlot {
-	width: 700px;
+	width: 600px;
+	height: 100px;
 	padding: 2px 6px;
-	margin: 1px auto;
+	margin: 1px;
 	background-color: #d6edf0;
-	text-align: center;
-	/* white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis; */
+	/* text-align: justify; */
+	word-break: break-all;
+	white-space: nowrap;
+	/* overflow: hidden; */
+	/* text-overflow: ellipsis; */
 	border: 1px solid #394443;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px #394443;
 }
 
 .buttonsBlock {
-	width: 150px;
+	width: 80px;
+	margin: 1px auto;
+	padding: 2px 6px;
 	margin: 1px auto;
 	text-align: center;
 	border-radius: 5px;
@@ -39,4 +44,7 @@
 
 .todoText {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	word-break: break-all;
 }

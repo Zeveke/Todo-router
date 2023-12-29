@@ -67,15 +67,12 @@ export const App = () => {
 						</div>
 					}
 				/>
-				{toDos.map((toDo) => (
-					<Route
-						key={toDo.id}
-						path={`/task/:id`}
-						element={
-							<AllAboutTask task={toDo} tasks={toDos} setTasks={setToDos} />
-						}
-					/>
-				))}
+				{/* {toDos.map((toDo) => ( */}
+				<Route
+					// key={toDo.id}
+					path="/task/:id"
+					element={<AllAboutTask tasks={toDos} setTasks={setToDos} />}
+				/>
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
 		</div>
